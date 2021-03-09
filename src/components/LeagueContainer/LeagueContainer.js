@@ -8,7 +8,7 @@ const LeagueContainer = () => {
         fetch('https://www.thesportsdb.com/api/v1/json/1/all_leagues.php')
         .then(res => res.json())
         .then(data => {
-            const slicedData = data.leagues.slice(0,20);
+            const slicedData = data.leagues.slice(0,21);
             setLeagues(slicedData);
         })
     }, []);

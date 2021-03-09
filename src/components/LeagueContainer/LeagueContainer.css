@@ -2,10 +2,17 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
 }
+@media only screen and (max-width: 992px) {
+    
+    .leaguesContainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
 @media only screen and (max-width: 768px) {
     
     .leaguesContainer{
         display: grid;
         grid-template-columns: 1fr;
     }
-  }
+}
