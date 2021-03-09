@@ -5,7 +5,7 @@ const Home = () => {
         <div className="home-head d-flex align-items-center justify-content-center">
             
             
-            <h1>League of Legends</h1>
+            <h1>League Hub</h1>
             
             
         </div>
