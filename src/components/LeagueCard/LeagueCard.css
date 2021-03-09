@@ -1,0 +1,9 @@
+.league-card{
+    border: 1px solid #28a745;
+    padding: 1em;
+    margin: 1em 1em;
+    border-radius: 1.5em;
+}
+.league-card img{
+    padding: 2em;
+}

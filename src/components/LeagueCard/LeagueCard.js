@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useHistory } from 'react-router';
+import './LeagueCard.css'
 
 const LeagueCard = ({league}) => {
     console.log(league);
@@ -13,11 +14,11 @@ const LeagueCard = ({league}) => {
         .then(data => setLogo(data.leagues[0].strBadge))
     }, [idLeague]);
     return (
-        <div>
-            <h3>{strLeague}</h3>
-            <h3>{strSport}</h3>
-            <img src={logo} alt=""/>
-            <button onClick= {() => history.push(`/leagues/${idLeague}`)}>Explore </button>
+        <div className="league-card">
+            <img className="img-fluid" src={logo} alt=""/>
+            <h5 className="text-center"><strong>{strLeague}</strong></h5>
+            <p className="text-center">Sports type: {strSport}</p>
+            <p className="text-center "><button className="btn btn-outline-success" onClick= {() => history.push(`/leagues/${idLeague}`)}>Explore </button></p>
         </div>
     );
 };

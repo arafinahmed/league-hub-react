@@ -13,7 +13,7 @@ const LeagueContainer = () => {
         })
     }, []);
     return (
-        <div className="leaguesContainer">
+        <div className="leaguesContainer container">
             
             {
                 leagues.map(league => <LeagueCard league={league} key={league.idLeague}></LeagueCard>)

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
-
+import './LeagueDetails.css'
 import Female from '../../Photo/Female.png';
 import Male from '../../Photo/Male.png';
 
@@ -19,7 +19,9 @@ const LeagueDetails = () => {
     }, [id]);
     return (
         <div>
-            <img src={strBanner} alt=""/>
+            <section className="header-banner">
+                <img src={strBanner} alt=""/>
+            </section>
             <section>
                 <div>
                     <h4>{strLeague}</h4>
