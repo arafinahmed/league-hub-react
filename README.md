@@ -15,8 +15,8 @@ Bootstrap
 Fontawesome 
 
 ### Components
-###### Home
-###### LeagueCard
-###### LeagueContainer
-###### LeagueDetails
-###### SocialMedia
+###### Home ==> project name 
+###### LeagueCard ==> Single Card of a League
+###### LeagueContainer ==> Contain all the league card
+###### LeagueDetails ==> Details of a League
+###### SocialMedia ==> Social Media link and icon oa link under leagueDetails
