@@ -22,11 +22,17 @@
     
     .information-section{
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         border: 1.7px solid #28a745;
         padding: 1em;
         margin: 1em 1em;
         border-radius: 1.5em;
+    }
+    .info-template h4{
+        font-size: 15px;
+    }
+    .written-information h3{
+        font-size: 20px;
     }
 }
 @media only screen and (max-width: 768px) {
@@ -39,8 +45,12 @@
         margin: 1em 1em;
         border-radius: 1.5em;
     }
-    .image-container{
-        text-align: center;
+    
+    .info-template h4{
+        font-size: 15px;
+    }
+    .written-information h3{
+        font-size: 20px;
     }
 }
 
