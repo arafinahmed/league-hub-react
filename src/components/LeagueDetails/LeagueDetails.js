@@ -5,6 +5,7 @@ import Female from '../../Photo/Female.png';
 import Male from '../../Photo/Male.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMars, faFutbol, faFlag, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
+import SocialMedia from '../SocialMedia/SocialMedia';
 const LeagueDetails = () => {
     const maleIcon = <FontAwesomeIcon icon={faMars} />;
     const footballIcon = <FontAwesomeIcon icon={faFutbol} />;
@@ -58,6 +59,7 @@ const LeagueDetails = () => {
                 </div>
 
             </section>
+            <SocialMedia league={leagueDetails} key={id}></SocialMedia>
 
         </div>
     );
