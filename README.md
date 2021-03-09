@@ -15,8 +15,8 @@ Bootstrap
 Fontawesome 
 
 ### Components
-##### Home
-##### LeagueCard
-##### LeagueContainer
-##### LeagueDetails
-##### SocialMedia
+###### Home
+###### LeagueCard
+###### LeagueContainer
+###### LeagueDetails
+###### SocialMedia
