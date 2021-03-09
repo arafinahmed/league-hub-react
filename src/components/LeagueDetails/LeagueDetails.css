@@ -1,3 +1,54 @@
 .header-banner img{
     width: 100%;
 }
+.information-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1.7px solid #28a745;
+    padding: 1em;
+    margin: 1em 1em;
+    border-radius: 1.5em;
+}
+.written-information{
+    color: #28a745;
+}
+.info-template{
+    display: grid;
+    grid-template-columns: 2fr 13fr;
+}
+
+
+@media only screen and (max-width: 992px) {
+    
+    .information-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        border: 1.7px solid #28a745;
+        padding: 1em;
+        margin: 1em 1em;
+        border-radius: 1.5em;
+    }
+}
+@media only screen and (max-width: 768px) {
+    
+    .information-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        border: 1.7px solid #28a745;
+        padding: 1em;
+        margin: 1em 1em;
+        border-radius: 1.5em;
+    }
+    .image-container{
+        text-align: center;
+    }
+}
+
+.description-container{
+    
+        border: 1.7px solid #28a745;
+        padding: 1em;
+        margin: 1em 1em;
+        border-radius: 1.5em;
+        text-align: justify;
+}
