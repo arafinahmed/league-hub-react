@@ -4,7 +4,7 @@ import './LeagueDetails.css'
 import Female from '../../Photo/Female.png';
 import Male from '../../Photo/Male.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMars, faFutbol, faFlag, faMapMarked, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
+import { faMars, faFutbol, faFlag, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
 const LeagueDetails = () => {
     const maleIcon = <FontAwesomeIcon icon={faMars} />;
     const footballIcon = <FontAwesomeIcon icon={faFutbol} />;
