@@ -13,3 +13,10 @@ Bootstrap
 
 ### Icon
 Fontawesome 
+
+### Components
+##### Home
+##### LeagueCard
+##### LeagueContainer
+##### LeagueDetails
+##### SocialMedia
