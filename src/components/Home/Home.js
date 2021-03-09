@@ -1,9 +1,13 @@
 import React from 'react';
-
+import './Home.css'
 const Home = () => {
     return (
-        <div>
-            <h1>Sports Gallery</h1>
+        <div className="home-head d-flex align-items-center justify-content-center">
+            
+            
+            <h1>League of Legends</h1>
+            
+            
         </div>
     );
 };

@@ -19,8 +19,10 @@ const LeagueDetails = () => {
         fetch(url)
             .then(res => res.json())
             .then(data => {
-                console.log(data.leagues[0]);
-                setLeagueDetails(data.leagues[0]);
+                if(data.leagues){
+                    setLeagueDetails(data.leagues[0]);
+                }
+                
             })
     }, [id]);
     return (
