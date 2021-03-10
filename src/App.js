@@ -7,6 +7,7 @@ import {
 import Home from './components/Home/Home';
 import LeagueContainer from './components/LeagueContainer/LeagueContainer';
 import LeagueDetails from './components/LeagueDetails/LeagueDetails';
+import NotFound from './components/NotFound/NotFound';
 
 function App() {
   return (
@@ -19,6 +20,13 @@ function App() {
           </Route>
           <Route path="/leagues/:id">
             <LeagueDetails></LeagueDetails>
+          </Route>
+          <Route path="/home">
+            <Home></Home>
+            <LeagueContainer></LeagueContainer>
+          </Route>
+          <Route exact path="*">
+            <NotFound></NotFound>
           </Route>
         </Switch>
       </Router>
