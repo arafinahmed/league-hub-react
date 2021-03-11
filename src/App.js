@@ -8,11 +8,13 @@ import Home from './components/Home/Home';
 import LeagueContainer from './components/LeagueContainer/LeagueContainer';
 import LeagueDetails from './components/LeagueDetails/LeagueDetails';
 import NotFound from './components/NotFound/NotFound';
+import Header from './components/Header/Header';
 
 function App() {
   return (
     <div>
       <Router>
+        <Header></Header>
         <Switch>
           <Route exact path="/">
             <Home></Home>
